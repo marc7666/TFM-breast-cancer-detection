@@ -50,6 +50,7 @@ TFM-breast-cancer-detection/
 ```
 ## Citation
 
+```bibtex
 @software{cervera2026tfm,
 author		= {Cervera Rosell, Marc},
 title		= {{Clasificació de tumors de mama mitjançant imatges}},
@@ -57,6 +58,7 @@ year		= {2026},
 url			= {https://github.com/marc7666/TFM-breast-cancer-detection}
 abstract	= {Source code, models, and experiments developed as part of a Master's Thesis (TFM), focused on applying artificial intelligence techniques for breast cancer detection.}
 }
+```
 
 ## License:
 
