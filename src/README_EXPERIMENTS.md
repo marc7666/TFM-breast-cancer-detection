@@ -28,8 +28,8 @@ train_test_split()
 | Block | Layers |
 | --- | --- |
 | Input | `Input(shape=(224, 224, 1))` |
-| Feature extractor | `Conv2D(16, 5x5, relu) $\rightarrow$ MaxPool2D $\rightarrow$ Conv2D(32, 3x3, relu) $\rightarrow$ MaxPool2D $\rightarrow$ Conv2D(64, 3x3, relu) $\rightarrow$ GlobalAveragePooling2D` |
-| Classifier | `Dense(1024, relu) $\rightarrow$ Dropout(0.5) $\rightarrow$ Dense(2, softmax)` |
+| Feature extractor | `Conv2D(16, 5x5, relu)` $\rightarrow$ `MaxPool2D` $\rightarrow$ `Conv2D(32, 3x3, relu)` $\rightarrow$ `MaxPool2D` $\rightarrow$ `Conv2D(64, 3x3, relu)` $\rightarrow$ `GlobalAveragePooling2D` |
+| Classifier | `Dense(1024, relu)` $\rightarrow$ `Dropout(0.5)` $\rightarrow$ `Dense(2, softmax)` |
 
 - Total parameters: 92.162
 - Trainable parameters: 92.162
