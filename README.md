@@ -5,44 +5,16 @@
 ```text
 TFM-breast-cancer-detection/
 ├── src/
-│	├── Experiment 1/
-│   	├── 
-│   	└──
-│	├── Experiment 2/
-│   	├── 
-│   	└──
-│	├── Experiment 3/
-│   	├──
-│   	└── 
-│	├── Experiment 4/
-│   	├──
-│   	└── 
-│	├── Experiment 5/
-│   	├──
-│   	└── 
-│   └── Experiment 6/
-│   	├──
-│   	└── 
+│	├── CNN/
+│   	└── Exp1-01-11-2026.ipynb
+│	├── Embeddings/
+│	├── Finetunning pre-trained models/
+│	├── Autoencoders/
 │   └── README_EXPERIMENTS.md
 ├── models/
-│	├── Experiment 1/
-│   	├── 
-│   	└──
-│	├── Experiment 2/
-│   	├── 
-│   	└──
-│	├── Experiment 3/
-│   	├──
-│   	└── 
-│	├── Experiment 4/
-│   	├──
-│   	└── 
-│	├── Experiment 5/
-│   	├──
-│   	└── 
-│   └── Experiment 6/
-│   	├──
-│   	└── 
+│	├── Failed experiments/
+│	└── Sucessful experiments/
+│   	└── Exp1-01-11-2026-CNN.onnx
 ├── .gitattributes
 ├── .gitignore
 ├── LICENSE.md
@@ -51,7 +23,7 @@ TFM-breast-cancer-detection/
 ## Citation
 
 ```bibtex
-@software{cervera2026tfm,
+@software{cervera2026tfmUOC,
 author		= {Cervera Rosell, Marc},
 title		= {{Clasificació de tumors de mama mitjançant imatges}},
 year		= {2026},
