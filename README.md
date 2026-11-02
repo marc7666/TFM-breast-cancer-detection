@@ -6,6 +6,7 @@
 TFM-breast-cancer-detection/
 ├── src/
 │	├── CNN/
+│		├── Exp1-01-11-2026 - with inference process.ipynb
 │   	└── Exp1-01-11-2026.ipynb
 │	├── Embeddings/
 │	├── Finetunning pre-trained models/
