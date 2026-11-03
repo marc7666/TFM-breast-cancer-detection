@@ -7,7 +7,9 @@ TFM-breast-cancer-detection/
 ├── src/
 │	├── CNN/
 │		├── Exp1-01-11-2026 - with inference process.ipynb
-│   	└── Exp1-01-11-2026.ipynb
+│   	├── Exp1-01-11-2026.ipynb
+│		├── Exp2-03-11-2026.ipynb 
+│		└── Exp3-03-11-2026.ipynb
 │	├── Embeddings/
 │	├── Finetunning pre-trained models/
 │	├── Autoencoders/
@@ -15,7 +17,9 @@ TFM-breast-cancer-detection/
 ├── models/
 │	├── Failed experiments/
 │	└── Sucessful experiments/
-│   	└── Exp1-01-11-2026-CNN.onnx
+│   	├── Exp1-01-11-2026-CNN.onnx
+│   	├── Exp2-03-11-2026-CNN.onnx
+│   	└── Exp3-03-11-2026-CNN.onnx
 ├── .gitattributes
 ├── .gitignore
 ├── LICENSE.md
