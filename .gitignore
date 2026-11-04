@@ -1,2 +1,6 @@
 # .txt file containing various notes that do not affect the project's operation. These are strictly internal notes
 Estratègies a investigar.txt
+
+# .keras files
+
+*.keras
