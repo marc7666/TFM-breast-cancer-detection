@@ -9,7 +9,8 @@ TFM-breast-cancer-detection/
 │		├── Exp1-01-11-2026 - with inference process.ipynb
 │   	├── Exp1-01-11-2026.ipynb
 │		├── Exp2-03-11-2026.ipynb 
-│		└── Exp3-03-11-2026.ipynb
+│		├── Exp3-03-11-2026.ipynb
+│		└── Exp4-04-11-2026.ipynb
 │	├── Embeddings/
 │	├── Finetunning pre-trained models/
 │	├── Autoencoders/
@@ -19,12 +20,27 @@ TFM-breast-cancer-detection/
 │	└── Sucessful experiments/
 │   	├── Exp1-01-11-2026-CNN.onnx
 │   	├── Exp2-03-11-2026-CNN.onnx
-│   	└── Exp3-03-11-2026-CNN.onnx
+│   	├── Exp3-03-11-2026-CNN.onnx
+│   	└── Exp4-04-11-2026-CNN.onnx
 ├── .gitattributes
 ├── .gitignore
 ├── LICENSE.md
 └── README.md
 ```
+
+## Summary table
+
+| Model name               | Deep Learning technique | Accuracy test | Success/Fail status |
+| ------------------------ | ----------------------- | ------------- | ------------------- |
+| Exp1-01-11-2026-CNN.onnx | CNN                     | 92.68%        | Success             |
+| Exp2-03-11-2026-CNN.onnx | CNN                     | 91.46%        | Success             |
+| Exp3-03-11-2026-CNN.onnx | CNN                     | 91.46%        | Success             |
+| Exp4-04-11-2026-CNN.onnx | CNN                     | 95.12%        | Success             |
+| Exp5-04-11-2026-CNN.onnx | CNN                     | 98.78%        | Success             |
+| Exp6-04-11-2026-CNN.onnx | CNN                     | 92.68%        | Success             |
+
+
+
 ## Citation
 
 ```bibtex
