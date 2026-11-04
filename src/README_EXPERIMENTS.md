@@ -333,3 +333,111 @@ train_test_split()
 - ONNX model saved at `models\Successful experiments\Exp6-04-11-2026-CNN.onnx`
 
 #### <em>Additional notes</em>
+
+### <ins>Experiment 7 - 04/11/2026</ins>
+
+#### <em>Dataset</em>
+
+- Source: Kaggle dataset
+
+- Link: <ins>[Breast Cancer](https://www.kaggle.com/datasets/ahmedmohamedabdallah/breastcancer)</ins>
+
+- 820 JPG images. Balanced classes: 410 "Cancer", 410 "Negative".
+
+- Split with function:
+```python
+from sklearn.model_selection import train_test_split
+
+train_test_split()
+```
+
+- Preprocessing:
+    - Resize to 224x224
+    - Color Mode: 'grayscale' $\rightarrow$ 1 channel
+
+#### <em>Architecture</em>
+
+| Block | Layers |
+| --- | --- |
+| Input | `Input(shape=(224, 224, 1))` |
+| Feature extractor | `Conv2D(32, 5x5, relu)` $\rightarrow$ `MaxPool2D` $\rightarrow$ `Conv2D(64, 3x3, relu)` $\rightarrow$ `MaxPool2D` $\rightarrow$ `Conv2D(128, 3x3, relu)` $\rightarrow$ `MaxPool2D` $\rightarrow$ `Conv2D(256, 3x3, relu)` $\rightarrow$ `GlobalAveragePooling2D` |
+| Classifier | `Dense(1024, relu)` $\rightarrow$ `Dropout(0.3)` $\rightarrow$  `Dense(2, softmax)` |
+
+- Total parameters: 653.570
+- Trainable parameters: 653.570
+- Non-trainable parameters: 0
+
+#### <em>Training</em>
+
+- Optimizer: Adam with learning rate 1e-3.
+- Loss: sparse categorical cross-entropy
+- Metric: accuracy
+- Max training epochs: 1000
+- Callbacks: `EarlyStopping(monitor="val_loss", patience=20, restore_best_weights=True)`, `ModelCheckpoint("checkpoints/best.keras", monitor="val_loss", save_best_only=True)` and `ReduceLROnPlateau(monitor="val_loss",patience=20, verbose=1)`
+- Hardware: Kaggle environment with 2 x GPU Tesla T4
+
+#### <em>Results</em>
+
+- Test accuracy: 96.34%
+- Early stopping at epoch 148 of 1000
+- Accuracy/Loss curves for training and validation data
+
+#### <em>ONNX model</em>
+
+- ONNX model saved at `models\Successful experiments\Exp7-04-11-2026-CNN.onnx`
+
+#### <em>Additional notes</em>
+
+### <ins>Experiment 8 - 04/11/2026</ins>
+
+#### <em>Dataset</em>
+
+- Source: Kaggle dataset
+
+- Link: <ins>[Breast Cancer](https://www.kaggle.com/datasets/ahmedmohamedabdallah/breastcancer)</ins>
+
+- 820 JPG images. Balanced classes: 410 "Cancer", 410 "Negative".
+
+- Split with function:
+```python
+from sklearn.model_selection import train_test_split
+
+train_test_split()
+```
+
+- Preprocessing:
+    - Resize to 224x224
+    - Color Mode: 'grayscale' $\rightarrow$ 1 channel
+
+#### <em>Architecture</em>
+
+| Block | Layers |
+| --- | --- |
+| Input | `Input(shape=(224, 224, 1))` |
+| Feature extractor | `Conv2D(32, 5x5, relu)` $\rightarrow$ `MaxPool2D` $\rightarrow$ `Conv2D(64, 3x3, relu)` $\rightarrow$ `MaxPool2D` $\rightarrow$ `Conv2D(128, 3x3, relu)` $\rightarrow$ `MaxPool2D` $\rightarrow$ `Conv2D(256, 3x3, relu)` $\rightarrow$ `GlobalAveragePooling2D` |
+| Classifier | `Dense(1024, relu)` $\rightarrow$ `Dropout(0.5)` $\rightarrow$  `Dense(2, softmax)` |
+
+- Total parameters: 653.570
+- Trainable parameters: 653.570
+- Non-trainable parameters: 0
+
+#### <em>Training</em>
+
+- Optimizer: Adam with learning rate 1e-3.
+- Loss: sparse categorical cross-entropy
+- Metric: accuracy
+- Max training epochs: 1000
+- Callbacks: `EarlyStopping(monitor="val_loss", patience=20, restore_best_weights=True)`, `ModelCheckpoint("checkpoints/best.keras", monitor="val_loss", save_best_only=True)` and `ReduceLROnPlateau(monitor="val_loss",patience=20, verbose=1)`
+- Hardware: Kaggle environment with 2 x GPU Tesla T4
+
+#### <em>Results</em>
+
+- Test accuracy: 95.12%
+- Early stopping at epoch 128 of 1000
+- Accuracy/Loss curves for training and validation data
+
+#### <em>ONNX model</em>
+
+- ONNX model saved at `models\Successful experiments\Exp8-04-11-2026-CNN.onnx`
+
+#### <em>Additional notes</em>

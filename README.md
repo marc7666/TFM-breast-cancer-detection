@@ -12,7 +12,9 @@ TFM-breast-cancer-detection/
 │		├── Exp3-03-11-2026.ipynb
 │		├── Exp4-04-11-2026.ipynb
 │		├── Exp5-04-11-2026.ipynb
-│		└── Exp6-04-11-2026.ipynb
+│		├── Exp6-04-11-2026.ipynb
+│		├── Exp7-04-11-2026.ipynb
+│		└── Exp8-04-11-2026.ipynb
 │	├── Embeddings/
 │	├── Finetunning pre-trained models/
 │	├── Autoencoders/
@@ -25,7 +27,9 @@ TFM-breast-cancer-detection/
 │   	├── Exp3-03-11-2026-CNN.onnx
 │   	├── Exp4-04-11-2026-CNN.onnx
 │   	├── Exp5-04-11-2026-CNN.onnx
-│   	└── Exp6-04-11-2026-CNN.onnx
+│   	├── Exp6-04-11-2026-CNN.onnx
+│   	├── Exp7-04-11-2026-CNN.onnx
+│   	└── Exp8-04-11-2026-CNN.onnx
 ├── .gitattributes
 ├── .gitignore
 ├── LICENSE.md
@@ -42,6 +46,8 @@ TFM-breast-cancer-detection/
 | Exp4-04-11-2026-CNN.onnx | CNN                     | 95.12%        | Success             |
 | Exp5-04-11-2026-CNN.onnx | CNN                     | 98.78%        | Success             |
 | Exp6-04-11-2026-CNN.onnx | CNN                     | 92.68%        | Success             |
+| Exp7-04-11-2026-CNN.onnx | CNN                     | 96.34%        | Success             |
+| Exp8-04-11-2026-CNN.onnx | CNN                     | 95.12%        | Success             |
 
 
 
