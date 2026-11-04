@@ -10,7 +10,9 @@ TFM-breast-cancer-detection/
 │   	├── Exp1-01-11-2026.ipynb
 │		├── Exp2-03-11-2026.ipynb 
 │		├── Exp3-03-11-2026.ipynb
-│		└── Exp4-04-11-2026.ipynb
+│		├── Exp4-04-11-2026.ipynb
+│		├── Exp5-04-11-2026.ipynb
+│		└── Exp6-04-11-2026.ipynb
 │	├── Embeddings/
 │	├── Finetunning pre-trained models/
 │	├── Autoencoders/
@@ -21,7 +23,9 @@ TFM-breast-cancer-detection/
 │   	├── Exp1-01-11-2026-CNN.onnx
 │   	├── Exp2-03-11-2026-CNN.onnx
 │   	├── Exp3-03-11-2026-CNN.onnx
-│   	└── Exp4-04-11-2026-CNN.onnx
+│   	├── Exp4-04-11-2026-CNN.onnx
+│   	├── Exp5-04-11-2026-CNN.onnx
+│   	└── Exp6-04-11-2026-CNN.onnx
 ├── .gitattributes
 ├── .gitignore
 ├── LICENSE.md
