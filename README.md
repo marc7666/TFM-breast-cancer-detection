@@ -5,19 +5,15 @@
 ```text
 TFM-breast-cancer-detection/
 ├── src/
-│	├── CNN/
-│		├── Exp1-01-11-2026 - with inference process.ipynb
-│   	├── Exp1-01-11-2026.ipynb
-│		├── Exp2-03-11-2026.ipynb 
-│		├── Exp3-03-11-2026.ipynb
-│		├── Exp4-04-11-2026.ipynb
-│		├── Exp5-04-11-2026.ipynb
-│		├── Exp6-04-11-2026.ipynb
-│		├── Exp7-04-11-2026.ipynb
-│		└── Exp8-04-11-2026.ipynb
-│	├── Embeddings/
-│	├── Finetunning pre-trained models/
-│	├── Autoencoders/
+│	├── Exp1-01-11-2026 - with inference process.ipynb
+│   ├── Exp1-01-11-2026.ipynb
+│	├── Exp2-03-11-2026.ipynb 
+│	├── Exp3-03-11-2026.ipynb
+│	├── Exp4-04-11-2026.ipynb
+│	├── Exp5-04-11-2026.ipynb
+│	├── Exp6-04-11-2026.ipynb
+│	├── Exp7-04-11-2026.ipynb
+│	├── Exp8-04-11-2026.ipynb
 │   └── README_EXPERIMENTS.md
 ├── models/
 │	├── Failed experiments/
