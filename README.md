@@ -5,20 +5,25 @@
 ```text
 TFM-breast-cancer-detection/
 ├── src/
-│	├── Exp1-01-11-2026 - with inference process.ipynb
-│   ├── Exp1-01-11-2026.ipynb
-│	├── Exp2-03-11-2026.ipynb 
-│	├── Exp3-03-11-2026.ipynb
-│	├── Exp4-04-11-2026.ipynb
-│	├── Exp5-04-11-2026.ipynb
-│	├── Exp6-04-11-2026.ipynb
-│	├── Exp7-04-11-2026.ipynb
-│	├── Exp8-04-11-2026.ipynb
-│	├── Exp9-15-11-2026.ipynb
-│   └── README_EXPERIMENTS.md
+│	├── CNN
+│		├── Exp1-01-11-2026 - with inference process.ipynb
+│		├── Exp1-01-11-2026.ipynb
+│		├── Exp2-03-11-2026.ipynb 
+│		├── Exp3-03-11-2026.ipynb
+│		├── Exp4-04-11-2026.ipynb
+│		├── Exp5-04-11-2026.ipynb
+│		├── Exp6-04-11-2026.ipynb
+│		├── Exp7-04-11-2026.ipynb
+│		├── Exp8-04-11-2026.ipynb
+│		├── Exp9-15-11-2026.ipynb
+│   	└── README_EXPERIMENTS.md
+│	├── Transfer learning
+│   	├── Exp1-15-11-2026-ResNet50.ipynb
+│   	└── README_EXPERIMENTS.md
 ├── models/
 │	├── Failed experiments/
-│   	└── Exp9-15-11-2026-CNN.onnx
+│   	├── Exp9-15-11-2026-CNN.onnx
+│   	└── Exp1-15-11-2026-ResNet50.onnx
 │	└── Sucessful experiments/
 │   	├── Exp1-01-11-2026-CNN.onnx
 │   	├── Exp2-03-11-2026-CNN.onnx
@@ -36,17 +41,18 @@ TFM-breast-cancer-detection/
 
 ## Summary table
 
-| Model name               | Deep Learning technique | Accuracy test | Success/Fail status | Reason failure |
-| ------------------------ | ----------------------- | ------------- | ------------------- | -------------- |
-| Exp1-01-11-2026-CNN.onnx | CNN                     | 92.68%        | Success             | DNA            |
-| Exp2-03-11-2026-CNN.onnx | CNN                     | 91.46%        | Success             | DNA            |
-| Exp3-03-11-2026-CNN.onnx | CNN                     | 91.46%        | Success             | DNA            |
-| Exp4-04-11-2026-CNN.onnx | CNN                     | 95.12%        | Success             | DNA            |
-| Exp5-04-11-2026-CNN.onnx | CNN                     | 98.78%        | Success             | DNA            |
-| Exp6-04-11-2026-CNN.onnx | CNN                     | 92.68%        | Success             | DNA            |
-| Exp7-04-11-2026-CNN.onnx | CNN                     | 96.34%        | Success             | DNA            |
-| Exp8-04-11-2026-CNN.onnx | CNN                     | 95.12%        | Success             | DNA            |
-| Exp9-15-11-2026-CNN.onnx | CNN                     | 96.34%        | Failure             | Overfitting    |
+| Model name               		| Deep Learning technique | Accuracy test | Success/Fail status | Reason failure |
+| -----------------------------	| ----------------------- | ------------- | ------------------- | -------------- |
+| Exp1-01-11-2026-CNN.onnx		| CNN                     | 92.68%        | Success             | DNA            |
+| Exp2-03-11-2026-CNN.onnx 		| CNN                     | 91.46%        | Success             | DNA            |
+| Exp3-03-11-2026-CNN.onnx 		| CNN                     | 91.46%        | Success             | DNA            |
+| Exp4-04-11-2026-CNN.onnx 		| CNN                     | 95.12%        | Success             | DNA            |
+| Exp5-04-11-2026-CNN.onnx 		| CNN                     | 98.78%        | Success             | DNA            |
+| Exp6-04-11-2026-CNN.onnx 		| CNN                     | 92.68%        | Success             | DNA            |
+| Exp7-04-11-2026-CNN.onnx 		| CNN                     | 96.34%        | Success             | DNA            |
+| Exp8-04-11-2026-CNN.onnx		| CNN                     | 95.12%        | Success             | DNA            |
+| Exp9-15-11-2026-CNN.onnx 		| CNN                     | 96.34%        | Failure             | Overfitting    |
+| Exp1-15-11-2026-ResNEt50.onnx | CNN                     | 97.56%        | Failure             | Overfitting    |
 
 
 

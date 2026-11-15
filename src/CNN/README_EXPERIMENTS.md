@@ -495,3 +495,5 @@ train_test_split()
 - ONNX model saved at `models\Failed experiments\Exp9-15-11-2026-CNN.onnx`
 
 #### <em>Additional notes</em>
+
+- Overfitting
