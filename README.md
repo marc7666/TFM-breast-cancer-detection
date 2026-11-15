@@ -14,9 +14,11 @@ TFM-breast-cancer-detection/
 │	├── Exp6-04-11-2026.ipynb
 │	├── Exp7-04-11-2026.ipynb
 │	├── Exp8-04-11-2026.ipynb
+│	├── Exp9-15-11-2026.ipynb
 │   └── README_EXPERIMENTS.md
 ├── models/
 │	├── Failed experiments/
+│   	└── Exp9-15-11-2026-CNN.onnx
 │	└── Sucessful experiments/
 │   	├── Exp1-01-11-2026-CNN.onnx
 │   	├── Exp2-03-11-2026-CNN.onnx
@@ -34,16 +36,17 @@ TFM-breast-cancer-detection/
 
 ## Summary table
 
-| Model name               | Deep Learning technique | Accuracy test | Success/Fail status |
-| ------------------------ | ----------------------- | ------------- | ------------------- |
-| Exp1-01-11-2026-CNN.onnx | CNN                     | 92.68%        | Success             |
-| Exp2-03-11-2026-CNN.onnx | CNN                     | 91.46%        | Success             |
-| Exp3-03-11-2026-CNN.onnx | CNN                     | 91.46%        | Success             |
-| Exp4-04-11-2026-CNN.onnx | CNN                     | 95.12%        | Success             |
-| Exp5-04-11-2026-CNN.onnx | CNN                     | 98.78%        | Success             |
-| Exp6-04-11-2026-CNN.onnx | CNN                     | 92.68%        | Success             |
-| Exp7-04-11-2026-CNN.onnx | CNN                     | 96.34%        | Success             |
-| Exp8-04-11-2026-CNN.onnx | CNN                     | 95.12%        | Success             |
+| Model name               | Deep Learning technique | Accuracy test | Success/Fail status | Reason failure |
+| ------------------------ | ----------------------- | ------------- | ------------------- | -------------- |
+| Exp1-01-11-2026-CNN.onnx | CNN                     | 92.68%        | Success             | DNA            |
+| Exp2-03-11-2026-CNN.onnx | CNN                     | 91.46%        | Success             | DNA            |
+| Exp3-03-11-2026-CNN.onnx | CNN                     | 91.46%        | Success             | DNA            |
+| Exp4-04-11-2026-CNN.onnx | CNN                     | 95.12%        | Success             | DNA            |
+| Exp5-04-11-2026-CNN.onnx | CNN                     | 98.78%        | Success             | DNA            |
+| Exp6-04-11-2026-CNN.onnx | CNN                     | 92.68%        | Success             | DNA            |
+| Exp7-04-11-2026-CNN.onnx | CNN                     | 96.34%        | Success             | DNA            |
+| Exp8-04-11-2026-CNN.onnx | CNN                     | 95.12%        | Success             | DNA            |
+| Exp9-15-11-2026-CNN.onnx | CNN                     | 96.34%        | Failure             | Overfitting    |
 
 
 
