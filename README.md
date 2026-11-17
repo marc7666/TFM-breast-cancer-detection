@@ -19,6 +19,8 @@ TFM-breast-cancer-detection/
 │   	└── README_EXPERIMENTS.md
 │	├── Transfer learning
 │   	├── Exp1-15-11-2026-ResNet50.ipynb
+│   	├── Exp2-17-11-2026-ResNet50.ipynb
+│   	├── Exp3-17-11-2026-ResNet50.ipynb
 │   	└── README_EXPERIMENTS.md
 ├── models/
 │	├── Failed experiments/
@@ -32,7 +34,9 @@ TFM-breast-cancer-detection/
 │   	├── Exp5-04-11-2026-CNN.onnx
 │   	├── Exp6-04-11-2026-CNN.onnx
 │   	├── Exp7-04-11-2026-CNN.onnx
-│   	└── Exp8-04-11-2026-CNN.onnx
+│   	├── Exp8-04-11-2026-CNN.onnx
+│   	├── Exp2-17-11-2026-ResNet50.onnx
+│   	└── Exp3-17-11-2026-ResNet50.onnx
 ├── .gitattributes
 ├── .gitignore
 ├── LICENSE.md
@@ -52,7 +56,9 @@ TFM-breast-cancer-detection/
 | Exp7-04-11-2026-CNN.onnx 		| CNN                     | 96.34%        | Success             | DNA            |
 | Exp8-04-11-2026-CNN.onnx		| CNN                     | 95.12%        | Success             | DNA            |
 | Exp9-15-11-2026-CNN.onnx 		| CNN                     | 96.34%        | Failure             | Overfitting    |
-| Exp1-15-11-2026-ResNEt50.onnx | CNN                     | 97.56%        | Failure             | Overfitting    |
+| Exp1-15-11-2026-ResNEt50.onnx | Transfer learning       | 97.56%        | Failure             | Overfitting    |
+| Exp2-17-11-2026-ResNEt50.onnx | Transfer learning       | 98.78%        | Success             | DNA			 |
+| Exp3-17-11-2026-ResNEt50.onnx | Transfer learning       | 100.00%       | Success             | DNA			 |
 
 
 
